@@ -36,8 +36,8 @@ android {
     }
 
     lint {
-        isWarningsAsErrors = true
-        isAbortOnError = true
+        //isWarningsAsErrors = true
+        //isAbortOnError = true
     }
 
     // Use this block to configure different flavors
@@ -56,9 +56,6 @@ android {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-
-    implementation(projects.libraryAndroid)
-    implementation(projects.libraryKotlin)
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraint.layout)
